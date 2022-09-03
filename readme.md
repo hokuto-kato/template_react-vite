@@ -1,0 +1,7 @@
+- Vite
+- React
+- ESLint
+- TypeScript
+- Pug
+- Sass
+- Volta

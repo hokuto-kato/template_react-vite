@@ -1,0 +1,35 @@
+{
+	"name": "template_react-vite",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@macropygia/vite-plugin-pug-static": "^0.0.17",
+		"@squoosh/lib": "^0.4.0",
+		"eslint": "8.22.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"sass": "^1.54.8"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.17",
+		"@types/react-dom": "^18.0.6",
+		"@typescript-eslint/eslint-plugin": "^5.0.0",
+		"@vitejs/plugin-react": "^2.0.1",
+		"eslint-config-standard-with-typescript": "^22.0.0",
+		"eslint-plugin-import": "^2.25.2",
+		"eslint-plugin-n": "^15.0.0",
+		"eslint-plugin-promise": "^6.0.0",
+		"eslint-plugin-react": "^7.31.2",
+		"typescript": "*",
+		"vite": "^3.0.7"
+	},
+	"volta": {
+		"node": "16.17.0"
+	}
+}
